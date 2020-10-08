@@ -1,0 +1,52 @@
+.cardPage {
+    background-color: #f4f4f4;
+    position: relative;/*для FaceHmm абсолюта*/
+    display: flex;
+    justify-content: center;
+    border: 5px solid green;
+}
+
+.imageContainer {
+    width:80%;
+    border: 5px solid red;
+}
+
+.imageContainer img {
+    width:100%;
+    }
+.exitButton {
+    position: absolute;
+    top:20px;
+    right:50px;
+    color:red;
+}
+
+.likesCounter {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+}
+
+.button {
+    background-color: transparent;
+    align-items: center;
+    margin-left:10px;
+    border:none;
+}
+
+/*@media all and (min-width: 1024px) {*/
+/*    .cardList{*/
+/*        padding: 20px 0 0 0;*/
+/*    }*/
+/*    .cardList {*/
+/*        background-color: white;*/
+/*        border-radius: 7px;*/
+/*    }*/
+/*}*/
+/*@media all and (min-width: 1540px) {*/
+/*    .cardList{*/
+/*        padding: 48px 0;*/
+/*    }*/
+/*}*/

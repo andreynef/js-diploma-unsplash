@@ -1,0 +1,28 @@
+.cardList {
+    background-color: #f4f4f4;
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin:0;
+    padding: 20px 0;
+}
+
+.card {
+    max-width: 1024px;
+    width: 500px
+}
+/*@media all and (min-width: 1024px) {*/
+/*    .cardList{*/
+/*        padding: 20px 0 0 0;*/
+/*    }*/
+/*    .cardList {*/
+/*        background-color: white;*/
+/*        border-radius: 7px;*/
+/*    }*/
+/*}*/
+/*@media all and (min-width: 1540px) {*/
+/*    .cardList{*/
+/*        padding: 48px 0;*/
+/*    }*/
+/*}*/

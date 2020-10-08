@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --black: #333333;
+  --orange: #cc6633;
+  --green: #a4cc33;
+  --whiteLightness: 100%;
+  /*--white: hsl(0, 0%, var(--whiteLightness));*/
+  --white: #FFF;
+  /*--grayF4: hsl(0, 0%, calc(var(--whiteLightness)- 4%));*/
+  --grayF4: #F4F4F4;
+  /*--grayF3: hsl(0, 0%, calc(var(--whiteLightness)- 5%));*/
+  --grayF3: #F3F3F3;
+  /*--grayEC: hsl(0, 0%, calc(var(--whiteLightness)- 7%));*/
+  --grayEC: #ECECEC;
+  /*--grayD9: hsl(0, 0%, calc(var(--whiteLightness)- 15%));*/
+  --grayD9: #D9D9D9;
+  /*--grayC4: hsl(0, 0%, calc(var(--whiteLightness)- 23%));*/
+  --grayC4: #C4C4C4;
+  /*--gray99: hsl(0, 0%, calc(var(--whiteLightness)- 40%));*/
+  --gray99: #999999;
+  /*--gray66: hsl(0, 0%, calc(var(--whiteLightness)- 60%));*/
+  --gray66: #666666;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--grayF4);
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Roboto', serif;
+}
+
+* {
+  color: var(--black);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*border: 1px solid black;*/
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+  width: 7px; /* ширина для вертикального скролла */
+  height: 8px; /* высота для горизонтального скролла */
+  background-color: var(--grayEC);
+  position: absolute;
+  top: 150px;
+  right: 130px;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: var(--grayD9);
+  border-radius: 9em;
+  /*box-shadow: inset 1px 1px 10px #f3faf7;*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--orange);
+}
+
+/* Стрелки */
+
+/*::-webkit-scrollbar-button:vertical:start:decrement {*/
+/*  background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*  linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*  linear-gradient(0deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);*/
+/*  background-color: #f6f8f4;*/
+/*}*/
+
+/*::-webkit-scrollbar-button:vertical:end:increment {*/
+/*  background:*/
+/*          linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*          linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*          linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);*/
+/*  background-color: #f6f8f4;*/
+/*}*/
+
+/*::-webkit-scrollbar-button:horizontal:start:decrement {*/
+/*  background:*/
+/*          linear-gradient(30deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*          linear-gradient(150deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*          linear-gradient(270deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);*/
+/*  background-color: #f6f8f4;*/
+/*}*/
+
+/*::-webkit-scrollbar-button:horizontal:end:increment {*/
+/*  background:*/
+/*          linear-gradient(210deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*          linear-gradient(330deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),*/
+/*          linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);*/
+/*  background-color: #f6f8f4;*/
+/*}*/

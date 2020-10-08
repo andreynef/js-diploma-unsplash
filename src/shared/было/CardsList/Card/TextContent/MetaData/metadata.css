@@ -1,0 +1,55 @@
+.metaData {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    line-height: 12px;
+    width: 100%;
+}
+
+.userLink {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 7px;
+}
+
+.userName{
+    color: orange;
+}
+
+.userName:hover{
+    text-decoration: underline;
+}
+
+.createdAt, .createdAt * {
+    color: #999999;
+}
+
+.publishedLabel {
+    display: none;
+}
+
+@media all and (min-width: 1024px) {
+    .metaData {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media all and (min-width: 1540px) {
+    /*.userLink:hover a {*/
+    /*    text-decoration: underline;*/
+    /*}*/
+
+    .username{
+        position: relative;
+        z-index: 1;
+    }
+
+}

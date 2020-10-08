@@ -1,0 +1,35 @@
+.textContentContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    padding: 16px 20px;
+
+}
+
+.metaMenuContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 0 4px 0;
+}
+
+.titleContainer {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.titleContainer a {/*строка с 3мя точками вконце*/
+    overflow: hidden;
+    text-decoration: none;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    color: black;
+}
+
+.titleContainer a:hover {
+    color: orange;
+}

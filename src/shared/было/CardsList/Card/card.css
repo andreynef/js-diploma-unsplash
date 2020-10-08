@@ -1,0 +1,15 @@
+.card {
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 0 20px 0;
+    position: relative;/*for exit button*/
+    width: 100%;
+}
+.exitButton {
+    position: absolute;
+    top:20px;
+    right:50px;
+    color:red;
+}

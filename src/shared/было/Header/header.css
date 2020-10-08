@@ -1,0 +1,38 @@
+.headerContainer {
+    padding:30px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border: 1px solid grey;
+    position:sticky;
+}
+
+.centralContainer {
+    width:100%;
+    max-width: 1024px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+
+.logoContainer img{
+    width:70px;
+}
+
+.userContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    /*border:1px solid red;*/
+    align-items: center;
+}
+
+@media all and (min-width: 1024px) {
+
+
+}
+
+@media all and (min-width: 1540px){
+
+}
